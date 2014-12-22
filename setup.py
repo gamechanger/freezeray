@@ -8,6 +8,6 @@ setup(name='freezeray',
       author_email='travis@gc.io',
       license='MIT',
       packages=['freezeray'],
-      install_requires=['pip==1.5.6'],
+      install_requires=['pip>=1.5.0,<6.0.0'],
       entry_points={'console_scripts': ['freezeray = freezeray.freeze:main']},
       zip_safe=False)
